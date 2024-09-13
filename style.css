@@ -1,0 +1,148 @@
+body {
+   
+}
+
+.grandheader {
+    background-color: #1f2937;
+    
+}
+
+.header {
+    display: flex;
+    border: 5px solid red;
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: space-around;
+
+}
+
+.bodyone {
+    display: flex;
+    border: 5px solid blue;
+    padding: 50px;
+    justify-content: center;
+    min-height: 5vh;
+}
+
+.botext {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid yellow;
+    flex-wrap: wrap;
+    max-width: 300px;
+    gap: 10px;
+}
+
+.links {
+    display: flex;
+    gap: 10px
+}
+
+.info {
+    text-align: center;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button1 {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 5px;
+    border-radius: 8px;
+    max-width: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.dolphin {
+    height: 250px;
+}
+
+.hold {
+    max-width: 200px;
+    flex-wrap: 100px;
+    
+}
+
+.imagehold {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    border: 5px solid pink;
+    background-color:#f9faf8
+}
+
+.bodythree {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    
+}
+
+.testimonial {
+    font-size: 36px;
+    font-style: italic;
+    border: 5px solid red;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: bold;
+    border: 5px solid red;
+}
+
+.bodyfour {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 25px;
+    margin: 75px;
+}
+
+.bftext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button2 {
+    border-radius: 10px;
+    border: 3px solid white;
+    color: white;
+    background-color: #3882f6;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 30px;
+    border: 5px solid white;
+
+}
+
+.text1 {
+    color: #e5e7eb;
+}
