@@ -1,5 +1,5 @@
 body {
-   
+    margin: auto;
 }
 
 .grandheader {
@@ -9,33 +9,32 @@ body {
 
 .header {
     display: flex;
-    border: 5px solid red;
     font-size: 18px;
     color: #e5e7eb;
     justify-content: space-around;
 
 }
 
+
 .bodyone {
     display: flex;
-    border: 5px solid blue;
     padding: 50px;
     justify-content: center;
-    min-height: 5vh;
+    gap: 60px;
 }
 
 .botext {
     display: flex;
     flex-direction: column;
-    border: 5px solid yellow;
-    flex-wrap: wrap;
-    max-width: 300px;
+    align-content: center;
+    width: 435px;
     gap: 10px;
 }
 
 .links {
     display: flex;
-    gap: 10px
+    gap: 20px;
+    border: 5px solid darkblue;
 }
 
 .info {
@@ -47,9 +46,17 @@ body {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 900;
+    align-content: center;
 }
 
 h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
@@ -65,6 +72,8 @@ ul {
     padding: 5px;
     border-radius: 8px;
     max-width: 100px;
+    cursor: pointer;
+    font-weight: 700;
 }
 
 a {
@@ -77,17 +86,37 @@ a {
 }
 
 .hold {
+    display: flex;
     max-width: 200px;
     flex-wrap: 100px;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
     
+}
+
+.boxman {
+    height: 160px;
+    width: 160px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.text {
+    flex: 1 1 auto;
 }
 
 .imagehold {
     display: flex;
     justify-content: center;
     gap: 52px;
-    border: 5px solid pink;
-    background-color:#f9faf8
+}
+
+.bodytwo {
+    margin-bottom: 150px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .bodythree {
@@ -102,14 +131,14 @@ a {
 .testimonial {
     font-size: 36px;
     font-style: italic;
-    border: 5px solid red;
+ 
 }
 
 .author {
     align-self: flex-end;
     font-size: 30px;
     font-weight: bold;
-    border: 5px solid red;
+
 }
 
 .bodyfour {
@@ -128,21 +157,27 @@ a {
 }
 
 .button2 {
-    border-radius: 10px;
-    border: 3px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    font-weight: 600;
     color: white;
     background-color: #3882f6;
+    cursor: pointer;
 }
 
 .footer {
+    display: flex;
     background-color: #1f2937;
     text-align: center;
     color: #e5e7eb;
-    padding: 30px;
-    border: 5px solid white;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
 
 }
 
 .text1 {
     color: #e5e7eb;
+    font-size: 20px;
 }
